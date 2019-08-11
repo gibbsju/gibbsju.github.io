@@ -1,0 +1,259 @@
+<html>
+
+<head>
+    <title>Julia Roadinger Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+
+            font-family: 'Roboto', sans-serif;
+
+            color: #1a1a1a;
+            display: grid;
+            grid-gap: 16px;
+
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr 3fr;
+
+            grid-template-areas:
+                "header header"
+                "left right";
+        }
+
+        .header {
+            grid-area: header;
+            text-align: center;
+            border-bottom: 2px solid #151515;
+        }
+
+        .header h1 {
+            font-size: 4em;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin: 16px 0;
+        }
+
+        .header h1 small {
+            font-size: .5em;
+        }
+
+        .left {
+            grid-area: left;
+            border-right: solid 2px #151515;
+            padding: 0 12px;
+        }
+
+        .left ul {
+            font-size: .9em;
+        }
+
+        .right {
+            grid-area: right;
+        }
+
+        .right p {
+            padding: 10px;
+        }
+
+
+        .left h3,
+        .right h3 {
+            width: 100%;
+            padding-bottom: 3px;
+            border-bottom: 1px solid #151515;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h1 small,
+        h3 small,
+        h4 small {
+            font-size: .9em;
+            color: #585858;
+            display: block;
+            font-weight: lighter;
+        }
+
+        h4 small {
+            margin-top: 3px;
+        }
+
+        ul {
+            /* list-style: none; */
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-flow: row wrap;
+
+        }
+
+        .skills-container div {
+            flex-basis: 50%;
+            white-space: nowrap;
+            margin: 2px 0;
+        }
+
+        .contact>div {
+            margin: 2px 0;
+            font-size: .9em;
+        }
+
+        @media print {
+            html {
+                font-size: .75em;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>
+            Julia Gibbs
+            <small>Devops Engineer</small>
+        </h1>
+    </div>
+
+    <div class="left">
+
+        <div class="contact">
+            <h3>Contact Info</h3>
+            <div>865-278-4282</div>
+            <div>Alpharetta, GA</div>
+            <div><a href="mailto:jlroadinger@gmail.com">jlroadinger@gmail.com</a></div>
+            <div><a href="https://linkedin.com/in/jlrgibbs">linkedin.com/in/jlrgibbs</a></div> 
+        </div>
+
+        <div>
+            <h3>Skills</h3>
+            <div class="skills-container">
+                <div>Jenkins</div>
+                <div>TeamCity</div>
+                <div>Artifactory</div>
+                <div>Fisheye </div>
+                <div>Crucible</div>
+                <div>Perforce</div>
+                <div>SVN</div>
+                <div>Github</div>
+                <div>Git</div>
+                <div>Powershell</div>
+                <div>Bash</div>
+                <div>Groovy</div>
+                <div>Python</div>
+                <div>SQL</div>
+                <div>Hyper-V</div>
+                <div>Docker</div>
+                <div>IIS</div>
+                <div>NGINX </div>
+                <div>Wireshark </div>
+                <div>Repliweb</div>
+                <div>Bugzilla</div>
+                <div>ALM Octane</div>
+                <div>SiteScope</div>
+                <div>XML</div>
+                <div>ASP .Net</div>
+                <div>CSS</div>
+                <div>Athena</div>
+                <div>SignHP</div>
+                <div>Aujas Signing</div>
+                <div>Apache Tomcat</div>
+                <div>VMware/Vsphere</div>
+                <div>Windows systems</div>
+                <div>PRTG network monitoring</div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Education</h3>
+            <h4>B.S. Computer Science
+                <small>Tennessee Technological University</small>
+                <small>2006-2010</small>
+                ­</h4>
+
+        </div>
+    </div>
+
+    <div class="right">
+
+        <div>
+            <h3>Professional Summary</h3>
+            <p>
+                I am a self motivated person who works well both independently and as part of a group. Organization is a
+                strong suit, as well as being able to change tasks quickly. I am looking to expand my technical
+                knowledge with new projects.
+            </p>
+        </div>
+
+        <div>
+            <h3>Experience</h3>
+
+            <div>
+                <h4>Lead DevOps Engineer <small>Fortify at Micro Focus (formally HP / HPE) | 2015 - current </small></h4>
+                <ul>
+                    <li>
+                        Work with multiple dev teams to create, streamline, and maintain build processes for a wide
+                        variety
+                        of products using an arrange of technologies including jenkins, teamcity, pipelines, artifactory, msbuild,
+                        docker, maven, ant, cake, nuget, ivy, npm, Document! X, file signing, and security scanning via Fortify on Demand.
+                    </li>
+                    <li>
+                        Maintain a web application infrastructure system end to end. Application was hosted on windows
+                        servers using IIS to host sites that included the customer support portal, sales portal, and
+                        product
+                        update functionality. System included load balanced internal and external servers, application
+                        monitoring, server monitoring, database connections, sftp connections, file share replication,
+                        certificate procurement and installation, and records management. Project manager of the
+                        migration/recreation of this system into a new datacenter.
+                    </li>
+                    <li>
+                        Manage labs (VMware Vsphere) and applications used by RnD organization. This includes LDAP, MIM
+                        groups, Github Enterprise Org, Perforce, SVN, Artifactory, Fisheye, Crucible, Bugzilla, and
+                        Confluence.
+                    </li>
+                    <li>
+                        Multiple product releases through a variety of methods including docker images, web servers, and
+                        company portal with escrow creation.
+                    </li>
+                    <li>
+                        Large scale projects completed: source control migrations (SVN to Github, Perforce to Github),
+                        physical lab move and re-ip/re-domain, full application system migration to new datacenter, and
+                        package migration to a new Artifactory instance.
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>QA Test Analyst <small>Total System Services, Inc. | 2011</small></h4>
+                <ul>
+                    <li>Test functionality and compliance of sensitive data transmission</li>
+                    <li>formulate test plans, test cases, and scripts for on-line and batch data verification</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Lab Administrator <small>Tennessee Technological University | 2009 - 2010</small></h4>
+                <ul>
+                    <li>Computer Science server and lab management; prepare computers for lab lessons </li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Women’s Center <small>Tennessee Technology University | 2008</small></h4>
+                <ul>
+                    <li>Maintain women’s center resources, aid students seeking site material </li>
+                    <li>Run bi-weekly information booth on topics such as women’s health</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
